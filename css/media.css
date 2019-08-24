@@ -1,0 +1,61 @@
+.body{
+	padding: 0;
+	margin: 0;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	
+	h1{
+	font-family: sans-serif;
+	color: blue;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+	h1{
+	font-family: sans-serif;
+	color: green;
+}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	h1{
+	font-family: sans-serif;
+	color: black;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+		.box{
+			width: 100px;
+			width: 200px;
+			background-color: pink;
+		}
+	h1{
+	font-family: sans-serif;
+	color: aqua;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+		.box{
+			width: 100px;
+			width: 200px;
+			background-color: pink;
+		}
+	h1{
+	font-family: sans-serif;
+	color: ;
+}
+
+ }
+ .alert alert-light{
+	border: 1px solid black;
+}
